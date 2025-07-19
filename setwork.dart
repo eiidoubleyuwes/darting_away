@@ -10,5 +10,6 @@ void main(){
   bool haiko = funkieSet.contains('mkuu'); // Check the whole list for the string
   bool haziko = funkieSet.containsAll({'Mary','Nzingo', 'Njeri'}); // As long as one is false then the whole operation is marked as false
   print(haziko);
-
+  var constructedSet = Set<int>(); // Set the set type explicitly
+  constructedSet.add(12);
 }
