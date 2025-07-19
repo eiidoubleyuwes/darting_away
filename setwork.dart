@@ -4,5 +4,11 @@ void main(){
   nisetie.length;
   var setulist =nisetie.map((kwanza) => kwanza%2).toList(); // Change the set to a list after modulo operation
   print(setulist);
+  //Create an empty list of type string
+  var funkieSet = <String>{};
+  funkieSet.addAll({'Baraka','Mnjala','Mbugua'});
+  bool haiko = funkieSet.contains('mkuu'); // Check the whole list for the string
+  bool haziko = funkieSet.containsAll({'Mary','Nzingo', 'Njeri'}); // As long as one is false then the whole operation is marked as false
+  print(haziko);
 
 }
