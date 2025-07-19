@@ -6,4 +6,9 @@ main(){
   print(timeTwentyThree);
   var weirDivide=listy.map((num2) => num2/~ 7);
   print(weirDivide);
+  var listmdogo = ['Baraka'];
+  var listmkubwa = ['Mnjala','Mbugua'];
+  //Combine both the lists
+  listmdogo.addAll(listmkubwa);
+  print(listmdogo);
 }
